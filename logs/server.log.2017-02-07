@@ -1,0 +1,422 @@
+cp: omitting directory `/var/lib/openshift/589a13302d527183c500017f/app-root/runtime/repo/.openshift/config/modules'
+=========================================================================
+
+  JBoss Bootstrap Environment
+
+  JBOSS_HOME: /var/lib/openshift/589a13302d527183c500017f/wildfly/
+
+  JAVA: /etc/alternatives/java_sdk_1.8.0/bin/java
+
+  JAVA_OPTS:  -server  -server -Xmx306m -XX:MaxPermSize=122m -XX:+AggressiveOpts -Dorg.apache.tomcat.util.LOW_MEMORY=true -DOPENSHIFT_APP_UUID=589a13302d527183c500017f -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dfile.encoding=UTF-8 -Djboss.node.name=wildfly-rootx.rhcloud.com -Djgroups.bind_addr= -Dorg.apache.coyote.http11.Http11Protocol.COMPRESSION=on
+
+=========================================================================
+
+OpenJDK Server VM warning: ignoring option MaxPermSize=122m; support was removed in 8.0
+[0m16:46:22,117 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+[0m[0m16:46:22,806 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+[0m[0m16:46:23,053 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) starting
+[0m[0m16:46:28,752 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 26) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m16:46:28,756 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m16:46:28,759 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=MySQLDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m16:46:28,760 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=PostgreSQLDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m16:46:28,778 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 14) WFLYCTL0028: Attribute 'default-stack' in the resource at address '/subsystem=jgroups' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m16:46:29,868 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0001: Content added at location /var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/content/4a/08ee3bca8fc3b765d2d97ab352c9e3a4b3e714/content
+[0m[0m16:46:30,055 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m16:46:30,248 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.1.Final
+[0m[0m16:46:30,287 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.1.Final
+[0m[0m16:46:30,675 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.9.Final
+[0m[0m16:46:30,747 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+[0m[0m16:46:31,102 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+[0m[0m16:46:31,163 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 43) WFLYIIOP0001: Activating IIOP Subsystem
+[0m[0m16:46:31,179 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 54) WFLYNAM0001: Activating Naming Subsystem
+[0m[33m16:46:31,132 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 62) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+[0m[0m16:46:31,108 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 61) WFLYSEC0002: Activating Security Subsystem
+[0m[0m16:46:31,239 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 50) WFLYJSF0007: Activated the following JSF Implementations: [main]
+[0m[0m16:46:31,285 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 64) WFLYWS0002: Activating WebServices Extension
+[0m[0m16:46:31,357 INFO  [org.jboss.as.clustering.jgroups] (ServerService Thread Pool -- 47) WFLYCLJG0001: Activating JGroups subsystem.
+[0m[0m16:46:31,392 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+[0m[0m16:46:31,559 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.5.Final)
+[0m[0m16:46:31,764 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 1.2.9.Final starting
+[0m[0m16:46:31,764 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0003: Undertow 1.2.9.Final starting
+[0m[0m16:46:31,956 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+[0m[0m16:46:31,956 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+[0m[0m16:46:32,029 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 37) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+[0m[0m16:46:32,266 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+[0m[0m16:46:32,436 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 37) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+[0m[0m16:46:32,468 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = mysql
+[0m[0m16:46:32,565 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 37) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.3)
+[0m[0m16:46:32,650 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = postgresql
+[0m[0m16:46:33,331 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0014: Creating file handler for path /var/lib/openshift/589a13302d527183c500017f/wildfly/welcome-content
+[0m[0m16:46:33,528 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+[0m[0m16:46:33,647 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+[0m[0m16:46:34,242 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on /127.11.136.1:8080
+[0m[0m16:46:35,343 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+[0m[0m16:46:35,473 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-5) WFLYIIOP0009: CORBA ORB Service started
+[0m[33m16:46:35,742 WARN  [org.jboss.as.messaging] (MSC service thread 1-1) WFLYMSG0075: AIO wasn't located on this platform, it will fall back to using pure Java NIO. Your platform is Linux, install LibAIO to enable the AIO journal.
+[0m[0m16:46:36,041 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory /var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/deployments
+[0m[0m16:46:36,134 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+[0m[0m16:46:36,755 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/messagingjournal,bindingsDirectory=/var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/messagingbindings,largeMessagesDirectory=/var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/messaginglargemessages,pagingDirectory=/var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/messagingpaging)
+[0m[0m16:46:36,833 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221006: Waiting to obtain live lock
+[0m[0m16:46:37,128 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+[0m[0m16:46:37,179 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221013: Using NIO Journal
+[0m[0m16:46:37,480 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221043: Adding protocol support CORE
+[0m[0m16:46:37,492 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221043: Adding protocol support AMQP
+[0m[0m16:46:37,531 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221043: Adding protocol support STOMP
+[0m[0m16:46:37,741 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221034: Waiting to obtain live lock
+[0m[0m16:46:37,742 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221035: Live Server Obtained live lock
+[0m[0m16:46:39,727 INFO  [org.jboss.messaging] (MSC service thread 1-2) WFLYMSG0016: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor acceptor
+[0m[0m16:46:39,662 INFO  [org.jboss.messaging] (MSC service thread 1-7) WFLYMSG0016: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor-throughput acceptor
+[0m[0m16:46:40,507 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221007: Server is now live
+[0m[0m16:46:40,532 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221001: HornetQ Server version 2.4.7.Final (2.4.7.Final, 124) [2d5905a1-ed64-11e6-8888-2729a3e95ac5] 
+[0m[0m16:46:40,746 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 66) WFLYMSG0002: Bound messaging object to jndi name java:/ConnectionFactory
+[0m[0m16:46:40,841 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 69) HQ221003: trying to deploy queue jms.queue.DLQ
+[0m[0m16:46:40,948 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 70) WFLYMSG0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+[0m[0m16:46:40,949 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 68) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+[0m[0m16:46:41,638 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0007: Registered connection factory java:/JmsXA
+[0m[0m16:46:42,133 INFO  [org.hornetq.ra] (MSC service thread 1-2) HornetQ resource adaptor started
+[0m[0m16:46:42,134 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-2) IJ020002: Deployed: file://RaActivatorhornetq-ra
+[0m[0m16:46:42,136 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+[0m[0m16:46:42,136 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) WFLYMSG0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+[0m[33m16:46:44,969 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+[0m[33m16:46:45,028 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+[0m[0m16:46:46,540 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 72) No Spring WebApplicationInitializer types detected on classpath
+[0m[0m16:46:46,543 INFO  [stdout] (ServerService Thread Pool -- 72) @@@@@@@@@@@@@@@@@@ QUARTZ INITIALIZED!!!@@@@@@@@@@@@@@@@@@@@
+[0m[0m16:46:46,750 INFO  [org.quartz.impl.StdSchedulerFactory] (ServerService Thread Pool -- 72) Using default implementation for ThreadExecutor
+[0m[0m16:46:46,843 INFO  [org.quartz.core.SchedulerSignalerImpl] (ServerService Thread Pool -- 72) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[0m[0m16:46:46,845 INFO  [org.quartz.core.QuartzScheduler] (ServerService Thread Pool -- 72) Quartz Scheduler v.2.2.1 created.
+[0m[0m16:46:46,846 INFO  [org.quartz.simpl.RAMJobStore] (ServerService Thread Pool -- 72) RAMJobStore initialized.
+[0m[0m16:46:46,848 INFO  [org.quartz.core.QuartzScheduler] (ServerService Thread Pool -- 72) Scheduler meta-data: Quartz Scheduler (v2.2.1) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[0m[0m16:46:46,850 INFO  [org.quartz.impl.StdSchedulerFactory] (ServerService Thread Pool -- 72) Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[0m[0m16:46:46,850 INFO  [org.quartz.impl.StdSchedulerFactory] (ServerService Thread Pool -- 72) Quartz scheduler version: 2.2.1
+[0m[0m16:46:46,850 INFO  [org.quartz.core.QuartzScheduler] (ServerService Thread Pool -- 72) Scheduler MyScheduler_$_NON_CLUSTERED started.
+[0m[0m16:46:48,360 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 72) Initializing Mojarra 2.2.12-jbossorg-2 20150729-1131 for context ''
+[0m[0m16:46:53,775 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 72) WFLYUT0021: Registered web context: /
+[0m[0m16:46:54,342 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 38) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+[0m[0m16:46:55,562 INFO  [stdout] (MyScheduler_Worker-1) [Tue Feb 07 16:46:55 EST 2017]return Status:204
+[0m[0m16:46:55,835 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.11.136.1:9990/management
+[0m[0m16:46:55,838 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.11.136.1:9990
+[0m[0m16:46:55,839 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) started in 34434ms - Started 425 of 644 services (271 services are lazy, passive or on-demand)
+[0m[0m16:56:23,737 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0009: Content /var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/content/57/c2da96ef325abfb6f8ac44244fb344333c9fb5 is obsolete and will be removed
+[0m[0m16:56:23,740 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0002: Content removed from location /var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/content/57/c2da96ef325abfb6f8ac44244fb344333c9fb5/content
+[0m[0m16:56:23,740 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0009: Content /var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/content/f4/bf633e19b8e47663d503ffb08432fb1d542dfa is obsolete and will be removed
+[0m[0m16:56:23,742 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0002: Content removed from location /var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/content/f4/bf633e19b8e47663d503ffb08432fb1d542dfa/content
+[0m[0m16:56:23,743 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0009: Content /var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/content/da/60418babb94ffa588d8d86d9f9cb6825d6fbbc is obsolete and will be removed
+[0m[0m16:56:23,745 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0002: Content removed from location /var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/content/da/60418babb94ffa588d8d86d9f9cb6825d6fbbc/content
+[0m[0m16:56:23,745 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0009: Content /var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/content/ef/2c6559bc57a3d77e6b051c18dd261e5ba6165f is obsolete and will be removed
+[0m[0m16:56:23,747 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0002: Content removed from location /var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/content/ef/2c6559bc57a3d77e6b051c18dd261e5ba6165f/content
+[0m[0m16:56:23,747 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0009: Content /var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/content/b1/f1964a282241b972918804a0b68590592abf9c is obsolete and will be removed
+[0m[0m16:56:23,750 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0002: Content removed from location /var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/content/b1/f1964a282241b972918804a0b68590592abf9c/content
+[0m[0m16:56:23,750 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0009: Content /var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/content/ce/4e471e3454e7e73dd9abe8478984a365a40ad3 is obsolete and will be removed
+[0m[0m16:56:23,753 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0002: Content removed from location /var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/content/ce/4e471e3454e7e73dd9abe8478984a365a40ad3/content
+[0m[0m22:46:47,628 INFO  [stdout] (MyScheduler_Worker-2) [Tue Feb 07 22:46:47 EST 2017]return Status:204
+[0m[0m23:03:28,654 INFO  [org.jboss.as.server] (XNIO-1 task-9) WFLYSRV0211: Suspending server
+[0m[0m23:03:28,663 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+[0m[0m23:03:28,699 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = postgresql
+[0m[0m23:03:28,730 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) WFLYMSG0006: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+[0m[0m23:03:28,735 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+[0m[0m23:03:28,740 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 74) WFLYUT0022: Unregistered web context: /
+[0m[0m23:03:28,737 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) WFLYJCA0011: Unbound JCA ConnectionFactory [java:/JmsXA]
+[0m[0m23:03:28,847 INFO  [org.quartz.core.QuartzScheduler] (ServerService Thread Pool -- 74) Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+[0m[0m23:03:28,848 INFO  [org.quartz.core.QuartzScheduler] (ServerService Thread Pool -- 74) Scheduler MyScheduler_$_NON_CLUSTERED paused.
+[0m[0m23:03:28,852 INFO  [org.quartz.core.QuartzScheduler] (ServerService Thread Pool -- 74) Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+[0m[0m23:03:28,854 INFO  [stdout] (ServerService Thread Pool -- 74) @@@@@@@@@@@@@@@@@@ QUARTZ DESTROYED!!!@@@@@@@@@@@@@@@@@@@@
+[0m[0m23:03:28,943 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+[0m[0m23:03:28,951 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+[0m[0m23:03:29,059 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = h2
+[0m[0m23:03:29,155 INFO  [org.hornetq.ra] (ServerService Thread Pool -- 80) HQ151003: HornetQ resource adaptor stopped
+[0m[0m23:03:29,241 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 5.1.3.Final
+[0m[0m23:03:29,537 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 80) HQ221002: HornetQ Server version 2.4.7.Final (2.4.7.Final, 124) [2d5905a1-ed64-11e6-8888-2729a3e95ac5] stopped
+[0m[0m23:03:29,668 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTP listener default suspending
+[0m[0m23:03:29,676 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.11.136.1/127.11.136.1:8080
+[0m[0m23:03:29,679 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 1.2.9.Final stopping
+[0m[0m23:03:29,770 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 1085ms
+[0m[0m23:03:29,781 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) stopped in 1087ms
+[0mRestarting JBoss...
+OpenJDK Server VM warning: ignoring option MaxPermSize=122m; support was removed in 8.0
+[0m23:03:31,379 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+[0m[0m23:03:31,995 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+[0m[0m23:03:32,157 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) starting
+[0m[0m23:03:38,335 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 28) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:03:38,340 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 18) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:03:38,350 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 18) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=MySQLDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:03:38,352 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 18) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=PostgreSQLDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:03:38,362 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 12) WFLYCTL0028: Attribute 'default-stack' in the resource at address '/subsystem=jgroups' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:03:39,574 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:03:39,692 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.3.1.Final
+[0m[0m23:03:39,740 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.3.1.Final
+[0m[0m23:03:39,943 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.9.Final
+[0m[0m23:03:40,051 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+[0m[0m23:03:40,140 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 43) WFLYIIOP0001: Activating IIOP Subsystem
+[0m[0m23:03:40,142 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+[0m[0m23:03:40,150 INFO  [org.jboss.as.clustering.jgroups] (ServerService Thread Pool -- 47) WFLYCLJG0001: Activating JGroups subsystem.
+[0m[0m23:03:40,439 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 64) WFLYWS0002: Activating WebServices Extension
+[0m[33m23:03:40,341 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 62) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+[0m[0m23:03:40,342 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 61) WFLYSEC0002: Activating Security Subsystem
+[0m[0m23:03:40,350 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 50) WFLYJSF0007: Activated the following JSF Implementations: [main]
+[0m[0m23:03:40,464 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 54) WFLYNAM0001: Activating Naming Subsystem
+[0m[0m23:03:40,537 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+[0m[0m23:03:40,636 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 37) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+[0m[0m23:03:41,581 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.5.Final)
+[0m[0m23:03:41,629 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+[0m[0m23:03:41,936 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 1.2.9.Final starting
+[0m[0m23:03:41,940 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0003: Undertow 1.2.9.Final starting
+[0m[0m23:03:41,960 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 37) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+[0m[0m23:03:41,964 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = mysql
+[0m[0m23:03:42,258 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 37) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.3)
+[0m[0m23:03:42,156 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+[0m[0m23:03:42,263 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = postgresql
+[0m[0m23:03:42,271 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+[0m[0m23:03:43,480 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0014: Creating file handler for path /var/lib/openshift/589a13302d527183c500017f/wildfly/welcome-content
+[0m[0m23:03:43,552 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+[0m[0m23:03:43,667 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+[0m[0m23:03:44,145 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on /127.11.136.1:8080
+[0m[0m23:03:45,143 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+[0m[33m23:03:45,635 WARN  [org.jboss.as.messaging] (MSC service thread 1-5) WFLYMSG0075: AIO wasn't located on this platform, it will fall back to using pure Java NIO. Your platform is Linux, install LibAIO to enable the AIO journal.
+[0m[0m23:03:45,739 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-8) WFLYIIOP0009: CORBA ORB Service started
+[0m[0m23:03:45,961 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory /var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/deployments
+[0m[0m23:03:46,133 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+[0m[0m23:03:46,166 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/messagingjournal,bindingsDirectory=/var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/messagingbindings,largeMessagesDirectory=/var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/messaginglargemessages,pagingDirectory=/var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/messagingpaging)
+[0m[0m23:03:46,232 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221006: Waiting to obtain live lock
+[0m[0m23:03:46,461 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221013: Using NIO Journal
+[0m[0m23:03:46,761 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+[0m[0m23:03:47,041 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221043: Adding protocol support CORE
+[0m[0m23:03:47,061 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221043: Adding protocol support AMQP
+[0m[0m23:03:47,066 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221043: Adding protocol support STOMP
+[0m[0m23:03:47,362 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221034: Waiting to obtain live lock
+[0m[0m23:03:47,363 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221035: Live Server Obtained live lock
+[0m[0m23:03:48,362 INFO  [org.jboss.messaging] (MSC service thread 1-2) WFLYMSG0016: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor-throughput acceptor
+[0m[0m23:03:48,362 INFO  [org.jboss.messaging] (MSC service thread 1-6) WFLYMSG0016: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor acceptor
+[0m[0m23:03:49,235 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221007: Server is now live
+[0m[0m23:03:49,235 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221001: HornetQ Server version 2.4.7.Final (2.4.7.Final, 124) [2d5905a1-ed64-11e6-8888-2729a3e95ac5] 
+[0m[0m23:03:49,462 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 66) WFLYMSG0002: Bound messaging object to jndi name java:/ConnectionFactory
+[0m[0m23:03:49,552 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 68) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+[0m[0m23:03:49,562 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 69) HQ221003: trying to deploy queue jms.queue.DLQ
+[0m[0m23:03:49,564 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 67) WFLYMSG0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+[0m[0m23:03:49,847 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-7) WFLYJCA0007: Registered connection factory java:/JmsXA
+[0m[0m23:03:50,327 INFO  [org.hornetq.ra] (MSC service thread 1-7) HornetQ resource adaptor started
+[0m[0m23:03:50,330 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-7) IJ020002: Deployed: file://RaActivatorhornetq-ra
+[0m[0m23:03:50,333 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-7) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+[0m[0m23:03:50,334 INFO  [org.jboss.as.messaging] (MSC service thread 1-4) WFLYMSG0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+[0m[33m23:03:51,826 WARN  [org.jboss.as.ee] (MSC service thread 1-1) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+[0m[33m23:03:51,828 WARN  [org.jboss.as.ee] (MSC service thread 1-1) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+[0m[0m23:03:52,531 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 71) No Spring WebApplicationInitializer types detected on classpath
+[0m[0m23:03:52,652 INFO  [stdout] (ServerService Thread Pool -- 71) @@@@@@@@@@@@@@@@@@ QUARTZ INITIALIZED!!!@@@@@@@@@@@@@@@@@@@@
+[0m[0m23:03:52,942 INFO  [org.quartz.impl.StdSchedulerFactory] (ServerService Thread Pool -- 71) Using default implementation for ThreadExecutor
+[0m[0m23:03:52,969 INFO  [org.quartz.core.SchedulerSignalerImpl] (ServerService Thread Pool -- 71) Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[0m[0m23:03:52,970 INFO  [org.quartz.core.QuartzScheduler] (ServerService Thread Pool -- 71) Quartz Scheduler v.2.2.1 created.
+[0m[0m23:03:52,971 INFO  [org.quartz.simpl.RAMJobStore] (ServerService Thread Pool -- 71) RAMJobStore initialized.
+[0m[0m23:03:52,972 INFO  [org.quartz.core.QuartzScheduler] (ServerService Thread Pool -- 71) Scheduler meta-data: Quartz Scheduler (v2.2.1) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[0m[0m23:03:52,972 INFO  [org.quartz.impl.StdSchedulerFactory] (ServerService Thread Pool -- 71) Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[0m[0m23:03:52,972 INFO  [org.quartz.impl.StdSchedulerFactory] (ServerService Thread Pool -- 71) Quartz scheduler version: 2.2.1
+[0m[0m23:03:52,973 INFO  [org.quartz.core.QuartzScheduler] (ServerService Thread Pool -- 71) Scheduler MyScheduler_$_NON_CLUSTERED started.
+[0m[0m23:03:53,428 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 71) Initializing Mojarra 2.2.12-jbossorg-2 20150729-1131 for context ''
+[0m[0m23:03:58,643 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0021: Registered web context: /
+[0m[0m23:03:58,882 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 38) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+[0m[0m23:03:59,843 INFO  [stdout] (MyScheduler_Worker-1) [Tue Feb 07 23:03:59 EST 2017]return Status:204
+[0m[0m23:04:00,047 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.11.136.1:9990/management
+[0m[0m23:04:00,048 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.11.136.1:9990
+[0m[0m23:04:00,048 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) started in 29471ms - Started 425 of 644 services (271 services are lazy, passive or on-demand)
+[0m[0m00:22:43,578 INFO  [org.jboss.as.server] (XNIO-1 task-5) WFLYSRV0211: Suspending server
+[0m[0m00:22:43,591 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+[0m[0m00:22:43,653 INFO  [org.jboss.as.messaging] (MSC service thread 1-8) WFLYMSG0006: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+[0m[0m00:22:43,668 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = postgresql
+[0m[0m00:22:43,669 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+[0m[0m00:22:43,672 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0022: Unregistered web context: /
+[0m[0m00:22:43,668 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-5) WFLYJCA0011: Unbound JCA ConnectionFactory [java:/JmsXA]
+[0m[0m00:22:43,835 INFO  [org.quartz.core.QuartzScheduler] (ServerService Thread Pool -- 75) Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+[0m[0m00:22:43,837 INFO  [org.quartz.core.QuartzScheduler] (ServerService Thread Pool -- 75) Scheduler MyScheduler_$_NON_CLUSTERED paused.
+[0m[0m00:22:43,839 INFO  [org.quartz.core.QuartzScheduler] (ServerService Thread Pool -- 75) Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+[0m[0m00:22:43,841 INFO  [stdout] (ServerService Thread Pool -- 75) @@@@@@@@@@@@@@@@@@ QUARTZ DESTROYED!!!@@@@@@@@@@@@@@@@@@@@
+[0m[0m00:22:43,869 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+[0m[0m00:22:43,931 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+[0m[0m00:22:43,959 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
+[0m[0m00:22:44,046 INFO  [org.hornetq.ra] (ServerService Thread Pool -- 76) HQ151003: HornetQ resource adaptor stopped
+[0m[0m00:22:44,163 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.1.3.Final
+[0m[0m00:22:44,359 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 76) HQ221002: HornetQ Server version 2.4.7.Final (2.4.7.Final, 124) [2d5905a1-ed64-11e6-8888-2729a3e95ac5] stopped
+[0m[0m00:22:44,636 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTP listener default suspending
+[0m[0m00:22:44,648 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.11.136.1/127.11.136.1:8080
+[0m[0m00:22:44,652 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 1.2.9.Final stopping
+[0m[0m00:22:44,738 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 1124ms
+[0m[0m00:22:44,751 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) stopped in 1107ms
+[0mRestarting JBoss...
+OpenJDK Server VM warning: ignoring option MaxPermSize=122m; support was removed in 8.0
+[0m00:22:46,299 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+[0m[0m00:22:47,000 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+[0m[0m00:22:47,166 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) starting
+[0m[0m00:22:54,044 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 23) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m00:22:54,052 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 18) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m00:22:54,054 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 18) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=MySQLDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m00:22:54,055 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 18) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=PostgreSQLDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m00:22:54,139 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 14) WFLYCTL0028: Attribute 'default-stack' in the resource at address '/subsystem=jgroups' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m00:22:55,016 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m00:22:55,159 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.3.1.Final
+[0m[0m00:22:55,200 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.3.1.Final
+[0m[0m00:22:55,361 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+[0m[0m00:22:55,482 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+[0m[0m00:22:55,491 INFO  [org.jboss.as.clustering.jgroups] (ServerService Thread Pool -- 47) WFLYCLJG0001: Activating JGroups subsystem.
+[0m[0m00:22:55,493 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 43) WFLYIIOP0001: Activating IIOP Subsystem
+[0m[0m00:22:55,651 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 54) WFLYNAM0001: Activating Naming Subsystem
+[0m[33m00:22:55,562 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 62) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+[0m[0m00:22:55,560 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 61) WFLYSEC0002: Activating Security Subsystem
+[0m[0m00:22:55,654 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 50) WFLYJSF0007: Activated the following JSF Implementations: [main]
+[0m[0m00:22:56,074 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+[0m[0m00:22:56,130 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 64) WFLYWS0002: Activating WebServices Extension
+[0m[0m00:22:56,255 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 4.0.9.Final
+[0m[0m00:22:56,254 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0003: Undertow 1.2.9.Final starting
+[0m[0m00:22:56,248 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.5.Final)
+[0m[0m00:22:56,260 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 1.2.9.Final starting
+[0m[0m00:22:56,362 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 37) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+[0m[0m00:22:56,735 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 37) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+[0m[0m00:22:56,738 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = mysql
+[0m[0m00:22:56,638 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+[0m[0m00:22:56,752 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+[0m[0m00:22:56,751 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+[0m[0m00:22:56,940 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 37) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.3)
+[0m[0m00:22:56,942 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = postgresql
+[0m[0m00:22:58,051 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0014: Creating file handler for path /var/lib/openshift/589a13302d527183c500017f/wildfly/welcome-content
+[0m[0m00:22:58,154 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+[0m[0m00:22:58,189 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+[0m[31m00:22:58,844 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-2) MSC000001: Failed to start service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:150)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Permission denied
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:67)
+	at org.xnio.nio.NioXnioWorker.createTcpConnectionServer(NioXnioWorker.java:182)
+	at org.xnio.XnioWorker.createStreamConnectionServer(XnioWorker.java:243)
+	at org.wildfly.extension.undertow.HttpListenerService.startListening(HttpListenerService.java:115)
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:147)
+	... 5 more
+
+[0m[0m00:23:00,178 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+[0m[0m00:23:00,688 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory /var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/deployments
+[0m[0m00:23:00,732 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+[0m[0m00:23:00,774 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-8) WFLYIIOP0009: CORBA ORB Service started
+[0m[31m00:23:03,783 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "ROOT.war")]) - failure description: {"WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+    "Services that were unable to start:" => ["jboss.deployment.unit.\"ROOT.war\".PARSE"],
+    "Services that may be the cause:" => [
+        "jboss.http-upgrade-registry.default",
+        "jboss.remoting.remotingConnectorInfoService.http-remoting-connector"
+    ]
+}}
+[0m[31m00:23:03,794 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "webservices")]) - failure description: {"WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+    "Services that were unable to start:" => ["jboss.ws.config"],
+    "Services that may be the cause:" => [
+        "jboss.http-upgrade-registry.default",
+        "jboss.remoting.remotingConnectorInfoService.http-remoting-connector"
+    ]
+}}
+[0m[31m00:23:03,797 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "undertow"),
+    ("server" => "default-server"),
+    ("http-listener" => "default")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.undertow.listener.default" => "org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+    Caused by: java.net.SocketException: Permission denied"}}
+[0m[31m00:23:03,799 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "jsr77")]) - failure description: {"WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+    "Services that were unable to start:" => ["jboss.jsr77.ejb"],
+    "Services that may be the cause:" => [
+        "jboss.http-upgrade-registry.default",
+        "jboss.remoting.remotingConnectorInfoService.http-remoting-connector"
+    ]
+}}
+[0m[31m00:23:03,828 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "messaging"),
+    ("hornetq-server" => "default")
+]) - failure description: {
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["jboss.messaging.default is missing [jboss.http-upgrade-registry.default]"],
+    "WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => ["jboss.messaging.default.jms.manager"],
+        "Services that may be the cause:" => [
+            "jboss.http-upgrade-registry.default",
+            "jboss.remoting.remotingConnectorInfoService.http-remoting-connector"
+        ]
+    }
+}
+[0m[31m00:23:03,829 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "ejb3")]) - failure description: {"WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+    "Services that were unable to start:" => [
+        "jboss.ejb.default-local-ejb-receiver-service",
+        "jboss.ejb3.ejbClientContext.default",
+        "jboss.ejb3.localEjbReceiver.value"
+    ],
+    "Services that may be the cause:" => [
+        "jboss.http-upgrade-registry.default",
+        "jboss.remoting.remotingConnectorInfoService.http-remoting-connector"
+    ]
+}}
+[0m[31m00:23:03,833 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "ejb3"),
+    ("service" => "remote")
+]) - failure description: {"WFLYCTL0180: Services with missing/unavailable dependencies" => ["jboss.ejb3.connector is missing [jboss.remoting.remotingConnectorInfoService.http-remoting-connector]"]}
+[0m[0m00:23:04,058 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 38) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+[0m[0m00:23:04,063 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.http-upgrade-registry.default (missing) dependents: [service jboss.messaging.default] 
+      service jboss.remoting.remotingConnectorInfoService.http-remoting-connector (missing) dependents: [service jboss.ejb3.connector] 
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+
+[0m[0m00:23:05,384 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.11.136.1:9990/management
+[0m[0m00:23:05,388 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.11.136.1:9990
+[0m[31m00:23:05,388 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) started (with errors) in 19828ms - Started 216 of 452 services (10 services failed or missing dependencies, 259 services are lazy, passive or on-demand)
+[0m[0m00:23:05,699 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 69ms
+[0m[0m00:23:05,937 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location /var/lib/openshift/589a13302d527183c500017f/wildfly/standalone/data/content/4a/08ee3bca8fc3b765d2d97ab352c9e3a4b3e714/content
+[0m[0m00:23:05,958 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "ROOT.war" (runtime-name: "ROOT.war")
+[0m[0m00:23:05,969 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+
+[0m[0m00:24:19,758 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+[0m[31m00:24:21,988 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "ROOT.war")]) - failure description: {"WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+    "Services that were unable to start:" => ["jboss.deployment.unit.\"ROOT.war\".PARSE"],
+    "Services that may be the cause:" => [
+        "jboss.http-upgrade-registry.default",
+        "jboss.remoting.remotingConnectorInfoService.http-remoting-connector"
+    ]
+}}
+[0m[0m00:24:22,059 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+[0m[0m00:24:22,059 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+
+[0m[0m00:26:32,558 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 7ms
+[0m[0m00:26:32,559 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+[0m[31m00:26:33,332 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 2) WFLYCTL0013: Operation ("full-replace-deployment") failed - address: ([]) - failure description: {"WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+    "Services that were unable to start:" => ["jboss.deployment.unit.\"ROOT.war\".PARSE"],
+    "Services that may be the cause:" => [
+        "jboss.http-upgrade-registry.default",
+        "jboss.remoting.remotingConnectorInfoService.http-remoting-connector"
+    ]
+}}
+[0m[0m00:26:33,352 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "ROOT.war" with deployment "ROOT.war"
+[0m[0m00:26:33,352 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+
+[0m[0m00:29:39,474 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+[0m[0m00:29:39,527 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+[0m[0m00:29:39,535 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0019: Host default-host stopping
+[0m[0m00:29:39,541 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = postgresql
+[0m[0m00:29:39,544 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+[0m[0m00:29:39,545 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0004: Undertow 1.2.9.Final stopping
+[0m[0m00:29:39,560 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = h2
+[0m[0m00:29:39,647 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment ROOT.war (runtime-name: ROOT.war) in 159ms
+[0m[0m00:29:39,654 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) stopped in 156ms
+[0m
